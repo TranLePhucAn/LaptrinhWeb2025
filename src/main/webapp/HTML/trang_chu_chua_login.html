@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>NATURAL COSMETICS</title>
+<link rel="stylesheet" href="../CSS/trang_chu_chua_login-style.css">
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+	crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+	<main>
+		<nav class="header">
+			<!-- Hàng trên: Logo + Search & Cart -->
+			<div class="top-bar">
+				<div class="logo">
+					<img src="../images/logo.png">
+				</div>
+				<div class="right-section">
+					<div class="search-cart ">
+						<div class="search-icon">
+							<div class="search-box" id="searchBox">
+								<span id="search-label"> <i
+									class="fa-solid fa-magnifying-glass"></i>
+								</span> <input type="text" id="search-input"
+									placeholder="Nhập từ khóa..." /> <span id="search-close">✖</span>
+							</div>
+						</div>
+					</div>
+					<div class="cart-icon">
+						<a href="giohang.html"><i class="fa-solid fa-cart-shopping"></i></a>
+					</div>
+					<div class="login">
+						<a href="dangnhap.html">Đăng nhập</a>
+					</div>
+				</div>
+			</div>
+
+			<!-- Menu -->
+			<div class="menu" id="menu">
+				<a href="trang_chu_chua_login.html">Trang chủ</a> <a
+					href="san_pham.html">Sản phẩm</a> <a href="gioi_thieu.html">Giới
+					Thiệu</a> <a href="tin_tuc.html">Tin Tức</a> <a
+					href="chinhsachdoitra.html">Chính sách đổi trả</a>
+			</div>
+		</nav>
+
+		<div class="banner">
+			<div class="gretting">
+				<h1 id="greet-title">Chào Mừng Đến Với NATURAL COSMETICS</h1>
+				<p id="greet-desc">“Vẻ đẹp không chỉ nằm ở lớp trang điểm, mà
+					còn ở sự chăm sóc tận gốc, để mỗi khoảnh khắc bạn đều rạng rỡ và
+					hạnh phúc với chính mình."</p>
+			</div>
+		</div>
+		<section class="featured-product-section product-section">
+			<h2 class="section-title">SẢN PHẨM MỚI</h2>
+			<div class="product-list">
+				<div class="product-item featured-item">
+					<img
+						src="https://image.cocoonvietnam.com/uploads/Thumb_ecom_promotion_tang_lich_cho_meo_06_07_503e72c634.png"
+						alt="Mỹ phẩm mới">
+					<h3>Gel tắm đường thốt nốt An Giang 500ml</h3>
+					<p class="price">212.000 ₫</p>
+					<div class="badge-new">Mới</div>
+					<button>THÊM VÀO GIỎ</button>
+				</div>
+
+				<div class="product-item featured-item">
+					<img
+						src="https://image.cocoonvietnam.com/uploads/Hair_BK_Nuoc_duong_da_dau_bo_ket_140ml_front_05520b4595.jpg"
+						alt="Mỹ phẩm mới">
+					<h3>Nước dưỡng da đầu bồ kết 140ml</h3>
+					<p class="price">182.000 ₫</p>
+					<div class="badge-new">Mới</div>
+					<button>THÊM VÀO GIỎ</button>
+				</div>
+
+				<div class="product-item featured-item">
+					<img
+						src="https://image.cocoonvietnam.com/uploads/Avatar_Website_Nuoc_tay_trang_sen_Artboard_7_copy_ac0bf66b46.jpg"
+						alt="Mỹ phẩm mới">
+					<h3>Nước tẩy trang sen Hậu Giang 500ml</h3>
+					<p class="price">309.000 ₫</p>
+					<div class="badge-new">Mới</div>
+					<button>THÊM VÀO GIỎ</button>
+				</div>
+
+				<div class="product-item featured-item">
+					<img
+						src="https://image.cocoonvietnam.com/uploads/Avatar_Website_Sap_Duong_Am_Sen_Hau_Giang_30ml_00f70209be.jpg"
+						alt="Mỹ phẩm mới">
+					<h3>Sáp dưỡng ẩm đa năng sen Hậu Giang 30ml</h3>
+					<p class="price">192.000 ₫</p>
+					<div class="badge-new">Mới</div>
+					<button>THÊM VÀO GIỎ</button>
+				</div>
+			</div>
+		</section>
+		<!-- SẢN PHẨM CỦA CHÚNG TÔI -->
+		<section class="product-section">
+			<h2 class="section-title">SẢN PHẨM BÁN CHẠY</h2>
+			<div class="product-carousel">
+				<button class="arrow left" onclick="scrollToLeft(this)">&#10094;</button>
+
+				<div class="product-list scrollable">
+					<div class="product-item featured-item">
+						<img
+							src="https://image.cocoonvietnam.com/uploads/z4394607669965_ca1ceaa3a09cb9e3f966f4ac4256dd9a_1_f787014de5.jpg"
+							alt="Mỹ phẩm bán chạy">
+						<h3>Gel bí đao rửa mặt 140ml</h3>
+						<p class="price">192.000 ₫</p>
+						<button>THÊM VÀO GIỎ</button>
+					</div>
+
+					<div class="product-item featured-item">
+						<img
+							src="https://image.cocoonvietnam.com/uploads/avatar_ntt_EBAW_2025_140ml_Artboard_1_20cd33f087.png"
+							alt="Mỹ phẩm bán chạy">
+						<h3>Nước tẩy trang bí đao 140ml</h3>
+						<p class="price">143.000 ₫</p>
+						<button>THÊM VÀO GIỎ</button>
+					</div>
+					<div class="product-item featured-item">
+						<img
+							src="https://image.cocoonvietnam.com/uploads/z4487535386831_5d2ae0d784dfe2e5188ff800f823607b_6e19452e83.jpg"
+							alt="Mỹ phẩm bán chạy">
+						<h3>Gel tắm khuynh diệp & bạc hà 500ml</h3>
+						<p class="price">241.000 ₫</p>
+						<button>THÊM VÀO GIỎ</button>
+					</div>
+					<div class="product-item featured-item">
+						<img
+							src="https://image.cocoonvietnam.com/uploads/CP_Ca_phe_moi_1a1b8ddbf1.jpg"
+							alt="Mỹ phẩm bán chạy">
+						<h3>Cà phê Đắk Lắk làm sạch da chết môi 5g</h3>
+						<p class="price">74.000 ₫</p>
+						<button>THÊM VÀO GIỎ</button>
+					</div>
+					<div class="product-item">
+						<img
+							src=https://image.cocoonvietnam.com/uploads/Avatar_Website_Nuoc_duong_toc_tinh_dau_buoi_140ml_Cai_tien_moi_240629_7819f9ba98.jpg
+							alt="Mỹ phẩm bán chạy">
+						<h3>Nước dưỡng tóc tinh dầu bưởi 140ml</h3>
+						<p class="price">162.000 ₫</p>
+						<button>THÊM VÀO GIỎ</button>
+					</div>
+					<div class="product-item view-all-item"
+						onclick="window.location.href='san_pham.html'">
+						<i class="fa-solid fa-arrow-right"
+							style="font-size: 50px; margin-bottom: 10px;"></i>
+						<h3>Xem tất cả</h3>
+						<p>Khám phá toàn bộ sản phẩm</p>
+					</div>
+				</div>
+
+				<button class="arrow right" onclick="scrollToRight(this)">&#10095;</button>
+			</div>
+		</section>
+
+		<!-- FOOTER -->
+		<footer class="main-footer">
+			<div class="footer-container">
+				<div class="footer-col about-us">
+					<div class="footer-logo">
+						<img src="../images/logo.png" alt="Natural Cosmetic Logo">
+					</div>
+					<p>Natural Cosmetics – nơi vẻ đẹp được nuôi dưỡng từ những tinh
+						chất thuần khiết của thiên nhiên, giúp bạn tự tin tỏa sáng mỗi
+						ngày mà vẫn giữ trọn sự an lành cho làn da.</p>
+					<div class="social-icons">
+						<a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i
+							class="fab fa-instagram"></i></a>
+					</div>
+				</div>
+
+				<div class="footer-col quick-links">
+					<h4>Liên Kết Nhanh</h4>
+					<ul>
+						<li><a href="trang_chu_chua_login.html">Trang Chủ</a></li>
+						<li><a href="san_pham.html">Sản Phẩm</a></li>
+						<li><a href="gioi_thieu.html">Giới Thiệu</a></li>
+						<li><a href="tin_tuc.html">Tin Tức</a></li>
+						<li><a href="chinhsachdoitra.html">Chính sách đổi trả</a></li>
+					</ul>
+				</div>
+
+				<div class="footer-col contact-info">
+					<h4>Liên Hệ Chúng Tôi</h4>
+					<p>
+						<i class="fa-solid fa-map-location-dot"></i> <strong>Địa
+							chỉ:</strong> 123 ABC, DEF, XYZ
+					</p>
+					<p>
+						<i class="fa-solid fa-phone"></i> <strong>Hotline:</strong> 1900
+						6868 (8h-20h)
+					</p>
+					<p>
+						<i class="fa-solid fa-envelope"></i> <strong>Email:</strong>
+						support@naturalcosmetic.vn
+					</p>
+					<p>
+						<i class="fa-solid fa-clock"></i> <strong>Giờ mở cửa:</strong> T2
+						- CN (7:00 - 21:00)
+					</p>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<p>&copy; 2025 Natural Cosmetic. Bảo lưu mọi quyền.</p>
+			</div>
+		</footer>
+	</main>
+	<script src="../JavaScript/trang_chu_chua_login.js"></script>
+</body>
+</html>
